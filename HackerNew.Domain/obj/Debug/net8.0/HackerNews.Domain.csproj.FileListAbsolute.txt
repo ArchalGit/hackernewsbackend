@@ -29,65 +29,34 @@ C:/Users/Admin/source/repos/HackerNews/HackerNew.Domain/obj/Debug/net8.0/refint/
 C:/Users/Admin/source/repos/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.pdb
 C:/Users/Admin/source/repos/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.genruntimeconfig.cache
 C:/Users/Admin/source/repos/HackerNews/HackerNew.Domain/obj/Debug/net8.0/ref/HackerNews.Domain.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.deps.json
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.runtimeconfig.json
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.pdb
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Configuration.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Http.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.csproj.AssemblyReference.cache
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.GeneratedMSBuildEditorConfig.editorconfig
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.AssemblyInfoInputs.cache
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.AssemblyInfo.cs
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.csproj.CoreCompileInputs.cache
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNe.B4FB700E.Up2Date
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/refint/HackerNews.Domain.dll
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.pdb
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.genruntimeconfig.cache
-/var/www/html/HackerNews (1)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/ref/HackerNews.Domain.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.deps.json
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.runtimeconfig.json
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.pdb
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Configuration.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Http.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.csproj.AssemblyReference.cache
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.GeneratedMSBuildEditorConfig.editorconfig
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.AssemblyInfoInputs.cache
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.AssemblyInfo.cs
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.csproj.CoreCompileInputs.cache
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/HackerNe.B4FB700E.Up2Date
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/refint/HackerNews.Domain.dll
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.pdb
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.genruntimeconfig.cache
-/var/www/html/hackernewsbackend/HackerNew.Domain/obj/Debug/net8.0/ref/HackerNews.Domain.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.deps.json
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.runtimeconfig.json
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/HackerNews.Domain.pdb
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Configuration.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Http.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.csproj.AssemblyReference.cache
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.AssemblyInfoInputs.cache
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.AssemblyInfo.cs
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.csproj.CoreCompileInputs.cache
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNe.B4FB700E.Up2Date
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/refint/HackerNews.Domain.dll
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.pdb
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/HackerNews.Domain.genruntimeconfig.cache
+/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/Debug/net8.0/ref/HackerNews.Domain.dll

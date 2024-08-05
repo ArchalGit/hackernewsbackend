@@ -888,11 +888,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/var/www/html/hackernewsbackend/HackerNew.Domain/HackerNews.Domain.csproj",
+      "projectUniqueName": "/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/HackerNews.Domain.csproj",
       "projectName": "HackerNews.Domain",
-      "projectPath": "/var/www/html/hackernewsbackend/HackerNew.Domain/HackerNews.Domain.csproj",
+      "projectPath": "/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/HackerNews.Domain.csproj",
       "packagesPath": "/home/hp/.nuget/packages/",
-      "outputPath": "/var/www/html/hackernewsbackend/HackerNew.Domain/obj/",
+      "outputPath": "/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/hp/.nuget/NuGet/NuGet.Config"

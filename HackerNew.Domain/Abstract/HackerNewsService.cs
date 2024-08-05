@@ -1,5 +1,7 @@
-﻿using HackerNews.Domain.Interface;
+﻿using HackerNews.Domain.DTO;
+using HackerNews.Domain.Interface;
 using Microsoft.Extensions.Caching.Memory;
+using System.Net;
 using System.Text.Json;
 
 namespace HackerNews.Domain.Abstract
@@ -15,39 +17,47 @@ namespace HackerNews.Domain.Abstract
             _httpClientFactoryService = httpClientFactoryService;
             _memoryCache = memoryCache;
         }
-        public async Task<dynamic> GetItem(string Id)
-        {
-            var client = _httpClientFactoryService.CreateClient();
-            var response = await client.GetAsync("https://hacker-news.firebaseio.com/v0/item/" + Id + ".json?print=pretty");
-            response.EnsureSuccessStatusCode();
-            return await response.Content.ReadAsStringAsync();
-        }
 
-        public async Task<dynamic> GetStories(string Id)
+        public async Task<List<HackerNewsDTO>> GetNewStoriesAsync()
         {
-            var client = _httpClientFactoryService.CreateClient();
-            var response = await client.GetAsync("https://hacker-news.firebaseio.com/v0/" + Id + ".json?print=pretty");
-            response.EnsureSuccessStatusCode();
-            return await response.Content.ReadAsStringAsync();
-        }
-
-        public async Task<IEnumerable<int>> GetNewStoriesAsync()
-        {
-            if (!_memoryCache.TryGetValue(NewStoriesCacheKey, out IEnumerable<int> newStories))
+            if (!_memoryCache.TryGetValue(NewStoriesCacheKey, out List<HackerNewsDTO> hackernewslist))
             {
+                hackernewslist = new List<HackerNewsDTO>();
                 var client = _httpClientFactoryService.CreateClient();
-                var response = await client.GetAsync("https://hacker-news.firebaseio.com/v0/newstories.json?print=pretty");
+
+                // Fetch the top stories
+                string hackernewslisturl = "https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty";
+                var response = await client.GetAsync(hackernewslisturl);
                 response.EnsureSuccessStatusCode();
                 var responseContent = await response.Content.ReadAsStringAsync();
-                newStories = JsonSerializer.Deserialize<IEnumerable<int>>(responseContent);
+
+                // Deserialize the list of story IDs
+                var storyIds = JsonSerializer.Deserialize<List<int>>(responseContent);
+
+                // Fetch details for each story in parallel
+                var tasks = storyIds.Select(async id =>
+                {
+                    var storyResponse = await client.GetAsync($"https://hacker-news.firebaseio.com/v0/item/{id}.json?print=pretty");
+                    storyResponse.EnsureSuccessStatusCode();
+                    var storyContent = await storyResponse.Content.ReadAsStringAsync();
+                    var story = JsonSerializer.Deserialize<HackerNewsDTO>(storyContent);
+                    return story;
+                });
+
+                var stories = await Task.WhenAll(tasks);
+                hackernewslist.AddRange(stories);
+
                 var cacheEntryOptions = new MemoryCacheEntryOptions()
                     .SetSlidingExpiration(_cacheDuration)
                     .SetAbsoluteExpiration(_cacheDuration);
 
-                _memoryCache.Set(NewStoriesCacheKey, newStories, cacheEntryOptions);
+                _memoryCache.Set(NewStoriesCacheKey, hackernewslist, cacheEntryOptions);
             }
 
-            return newStories;
+            return hackernewslist;
         }
+
     }
+
+
 }

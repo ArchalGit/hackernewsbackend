@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HackerNews.Tests
-build_property.ProjectDir = C:\Users\Admin\source\repos\HackerNews\HackerNews.Tests\
+build_property.ProjectDir = /var/www/html/HackerNews (2)/HackerNews/HackerNews.Tests/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

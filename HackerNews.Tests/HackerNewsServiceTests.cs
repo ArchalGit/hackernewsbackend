@@ -1,4 +1,5 @@
 ﻿using HackerNews.Domain.Abstract;
+using HackerNews.Domain.DTO;
 using Microsoft.Extensions.Caching.Memory;
 using Moq;
 using Moq.Protected;
@@ -11,7 +12,7 @@ public class HackerNewsServiceTests
     public async Task GetNewStoriesAsync_CachesData() //Can't be tested as the stories will keep on changing and no specified test cases can be provided
     {
         // Arrange
-        var expectedStories = new List<int> { 1, 2, 3 };
+        var expectedStories = new List<HackerNewsDTO>();
         var handlerMock = new Mock<HttpMessageHandler>();
         handlerMock
             .Protected()

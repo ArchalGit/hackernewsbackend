@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SgYFrDgUPb4=",
+  "dgSpecHash": "D0tdbH0bZV8=",
   "success": true,
-  "projectFilePath": "/var/www/html/hackernewsbackend/HackerNew.Domain/HackerNews.Domain.csproj",
+  "projectFilePath": "/var/www/html/HackerNews (2)/HackerNews/HackerNew.Domain/HackerNews.Domain.csproj",
   "expectedPackageFiles": [
     "/home/hp/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/home/hp/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
